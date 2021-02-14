@@ -3,29 +3,33 @@
     <title>The List App</title>
     <style>
       body         { font-size: x-large; font-family: san-serif; }
-      #main        { min-width: 945px; margin: 0 auto; text-align: center; }
-      #screenshots { min-width: 945px; margin: 0 auto; }
-      #screenshots > img { height: 500px; border-radius: 15px; }
+      .header      { color: red; }
+      #main        { min-width: 473px; margin: 0 auto; text-align: center; }
+      .screenshots { min-width: 473px; margin: 0 auto; }
+      .screenshots > img { height: 500px; border-radius: 15px; }
       #apple-store { height: 65px; margin-top: 20px; } 
     </style>
   </head>
   <body>
     <div id='main'>
-      <h1>The List</h1>
-      <div id="screenshots">
-        <img src="/images/screenshot3.png" />
-        <img src="/images/screenshot4.png" />
-        <img src="/images/screenshot1.png" />
-        <img src="/images/screenshot2.png" />
+      <h1 class='header'>The List</h1>
+      <div class='screenshots'>
+        <img src='/images/screenshot3.png' />
+        <img src='/images/screenshot4.png' />
+      </div>
+      <div class='screenshots'>
+        <img src='/images/screenshot1.png' />
+        <img src='/images/screenshot2.png' />
       </div>
       <div>
-        <a href="https://apps.apple.com/us/app/the-list/id1541569736">
-          <img id="apple-store" src="/images/apple-store.png" alt="Apple Store" />
+        <a href='https://apps.apple.com/us/app/the-list/id1541569736'>
+          <img id='apple-store' src='/images/apple-store.png' alt='Apple Store' />
         </a>
       </div>
       <p>
-        Questions? 
-        <a href="mailto:listappqed@gmail.com">
+      Questions?
+      <br /> 
+        <a href='mailto:listappqed@gmail.com'>
           Send us an email.
         </a>
       </p>
